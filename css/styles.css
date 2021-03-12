@@ -3,6 +3,10 @@
     padding: 10px;
 }
 
+#nav > a {
+    color:black;
+}
+
 .jumbotron{
     background-color: white
 }
