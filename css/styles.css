@@ -1,6 +1,8 @@
 #nav{
-    background-color:gray;
-    padding: 10px;
+    background-color:#cbc0d3;
+    padding: 50px; 
+    font-size: 2em;
+    text-align: center;
 }
 
 #nav > a {
@@ -17,7 +19,9 @@ h1,h2{
 
 
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    background-color:#dee2ff;
 }
 
 #carouselmain{
@@ -35,6 +39,43 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 100px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     text-align: center;
   }
+
+
+
+  .form-group{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #8e9aaf;
+    width: 800px;
+    height: 500px;
+    padding: 10px;
+    margin: auto;
+  }
+
+  input{
+    width: 700px;
+    height:50px;
+    text-align:center;
+  }
+
+#messagebox{
+    width: 100%;
+}
+  footer{
+      background: #cbc0d3;
+      padding: 50px; 
+      
+  }
+
+  /* Set the size of the div element that contains the map */
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+  }
+
